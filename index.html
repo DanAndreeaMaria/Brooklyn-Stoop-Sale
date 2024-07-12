@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <!--Favicon link-->
+  <link rel="icon" type="image/x-icon" href="favicon_io/favicon-32x32.png">
+  <!---------------->
+  <link rel="stylesheet" href="style.css">
+  <title>Brooklyn Stoop Sale</title>
+</head>
+<body>
+
+  <!--audio-->
+  <audio id="myAudio">
+    <source src="gentle_waves_track.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- <button onclick="playAudio()" type="button"><img src="images/play-button.png" alt="play-btn"></button> -->
+  <img class="play-btn" onclick="playAudio()" type="button" src="images/play-button.png" alt="play-btn">
+  <img class="pause-btn" class="pause-btn" onclick="pauseAudio()" type="button" src="images/pause.png" alt="play-btn">
+  <!------------------>
+
+  <!--Sections-->
+  <div class="row" id="section-1">
+    <h3 class="text-btn">Get some chill vibes</h3>
+    <div class="column"> 
+      <img class="stoop-sale" src="images/Designer (4) x.jpeg" alt="Stoop Sale Brooklyn">
+    </div>
+    <div class="column">
+      <h1 class="p-txt">You are invited to our Stoop Sale!</h1>
+      <button class="button1"><a href="#section-2">Check this out!</a></button>
+    </div>
+  </div>
+
+  <div id="section-2">
+    <div>
+      <h1 class="explain-title">So, what's exactly a Stoop Sale?</h1>
+      <h2 class="explain-txt">So! I clean up my house. I found usefull stuff, but not for me anymore, so... I decided to sell them. Online? Nope. Advertise on newspaper? Nope. We are in 2024... E-mail? Nope. Who's reading this type of email?
+        I sneak around my mom, i take the good blanket, I lay it on the stairs in front of the house, I spread all the stuff on the blanket and I'm patiently waiting for the customers. By customers... I mean you! That's the part where you intervene. 
+        Take your friends, smash the piggy bank and come to my stoop sale! I'm sure that my old stuff - it's a tresure for you. I'm waiting for you! Oh, you don't know where! Scroll down!</h2>
+    </div>
+    <div class="explain-images">
+      <img class="explain-1" src="images/explain1.png" alt="stoop-sale-1">
+      <img class="explain-2" src="images/explain2.png" alt="stoop-sale-2">
+      <img class="explain-3" src="images/explain3.png" alt="stoop-sale-3">
+    </div>
+  </div>
+
+  <div id="section-3">
+    <div class="title-txt">
+
+      <div class="loader"></div>
+
+      <h1>Where you can find us?</h1>
+    </div>
+    <div class="title-txt">
+      <h1 class="h1-txt">Check the map! On Caroll Gardens - corner of Court Street and 2nd Ave, Brooklyn NY!</h1>
+    </div>
+    
+    <div class="map" id="g-maps">   
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.7500192888!2d-73.99696966663303!3d40.67947662578844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a585c181957%3A0x50e694b8c1ef75b2!2s2nd%20Pl%20%26%20Court%20St%2C%20Brooklyn%2C%20NY%2011231%2C%20USA!5e0!3m2!1sen!2sro!4v1720775338982!5m2!1sen!2sro" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </div>
+    
+    <div class="date-row">
+      <div class="column-date"> 
+        <img class="calendar" src="images/deadline.png" alt="calendar-img">
+        <h1 class="date-txt">25 - July - 2024</h1>
+      </div>
+      <div class="column-time"> 
+        <img class="clock" src="images/clock.png" alt="clock-img">
+        <h1 class="time-txt">14:00</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-4">
+    <h1 class="finds">What you'll find in here? Let's see:</h1>
+    <div class="img-bunch">
+      <img class="bicycle" src="images/bicycle.png" alt="bicycle">
+      <img class="shoes" src="images/shoes.png" alt="shoes">
+      <img class="toy" src="images/toy.jpeg" alt="toy">
+      <img class="tshirt" src="images/tshirt.jpeg" alt="t-shirt">
+      <img class="tchotchkes" src="images/tchotchkes.png" alt="tchotchkes">
+    </div>
+    <h2 class="bunch-desc">The bike that drove me miles on my childhood, the shoes that carried me so many springs, the toy I got from my grandpa when I was 3, the beach T-shirt, all of these can have a new life in your home!</h2>
+  </div>
+
+  <div class="footer">
+    <h4 class="footer-section">Made with <img class="footer-heart" src="images/footer-heart.png" alt="drawn-heart"> by Andreea</h4>
+  </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
